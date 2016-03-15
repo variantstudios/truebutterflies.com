@@ -1,0 +1,20 @@
+/*----- COLOR SCHEME -----*/
+/* FONTS */
+/* TABS COLORS */
+/*----- MIXINS -----*/
+/* line 4, ../sass/ie8.scss */
+.ie8 { /* ------------- STYLES FOR RIBBON ON THE NAV --------------*/ }
+/* line 6, ../sass/ie8.scss */
+.ie8 #main-nav { height: 70px; margin: 0; }
+/* line 9, ../sass/ie8.scss */
+.ie8 #main-nav ul#main-menu { margin: 0 10px 0 10px; padding: 25px 0; }
+/* line 12, ../sass/ie8.scss */
+.ie8 #main-nav ul#main-menu li { padding: 10px 38px; }
+/* line 15, ../sass/ie8.scss */
+.ie8 #main-nav ul#main-menu .last { border: none; }
+/* line 23, ../sass/ie8.scss */
+.ie8 nav { position: relative; }
+/* line 26, ../sass/ie8.scss */
+.ie8 nav:before { content: " "; display: block; width: 0; height: 0; border-top: 15px solid #23423b; border-left: 15px solid transparent; position: absolute; left: 0; top: 71px; margin-bottom: -10px; }
+/* line 38, ../sass/ie8.scss */
+.ie8 nav:after { content: " "; display: block; width: 0; height: 0; border-top: 15px solid #23423b; border-right: 15px solid transparent; position: absolute; left: 995px; top: 71px; margin-bottom: -10px; }

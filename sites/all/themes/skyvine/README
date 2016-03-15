@@ -1,0 +1,5 @@
+Base theme designed to be overridden and customized, not sub-themed.
+
+Borrows code from Conditional Styles module (http://drupal.org/project/conditional_styles).
+
+Relies on use of LESS CSS Processor (http://drupal.org/project/less) for styles.

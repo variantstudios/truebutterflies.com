@@ -1,0 +1,91 @@
+/*----- COLOR SCHEME -----*/
+/* FONTS */
+/* TABS COLORS */
+/*----- MIXINS -----*/
+/*----- Drupal Tabs -----*/
+/* line 5, ../sass/drupal-reset.scss */
+.tabs ul.primary { border-bottom: medium none; margin: 0; padding: 5px 0; }
+/* line 9, ../sass/drupal-reset.scss */
+.tabs ul.primary li a { background-color: #dddddd; border: 1px solid #cccccc; border-radius: 6px; color: #cccccc; font-weight: normal; padding: 3px 7px; }
+/* line 16, ../sass/drupal-reset.scss */
+.tabs ul.primary li a:hover { color: #7ab4d0; border: 1px solid #7ab4d0; }
+/* line 20, ../sass/drupal-reset.scss */
+.tabs ul.primary li a.active { background-color: #dddddd; border: 1px solid #7ab4d0; color: #7ab4d0; }
+
+/*----- Drupal Messages -----*/
+/* line 30, ../sass/drupal-reset.scss */
+div.messages { border-radius: 6px; color: #fff; font-size: 14px; line-height: 18px; margin: 15px 0; min-height: 30px; padding: 10px 10px 10px 57px; }
+/* line 38, ../sass/drupal-reset.scss */
+div.messages ul li { list-style-type: none; margin: 0 0 10px 0; }
+
+/* line 43, ../sass/drupal-reset.scss */
+div.status { background: url(../images/messages/knob_valid.png) no-repeat 9px 9px #649616; }
+/* line 46, ../sass/drupal-reset.scss */
+div.status a:link, div.status a:visited { color: #9DD78D; }
+/* line 49, ../sass/drupal-reset.scss */
+div.status a:hover, div.status a:active { text-decoration: none; }
+
+/* line 54, ../sass/drupal-reset.scss */
+div.notice { background: url(../images/messages/knob_message.png) 9px 9px no-repeat #0095d1; }
+/* line 57, ../sass/drupal-reset.scss */
+div.notice a:link, div.notice a:visited { color: #9DCFF3; }
+/* line 60, ../sass/drupal-reset.scss */
+div.notice a:hover, div.notice a:active { text-decoration: none; }
+
+/* line 65, ../sass/drupal-reset.scss */
+div.warning { background: url(../images/messages/knob_attention.png) no-repeat 9px 9px #a76c0e; }
+/* line 68, ../sass/drupal-reset.scss */
+div.warning a:link, div.warning a:visited { color: #F0DB2E; }
+/* line 71, ../sass/drupal-reset.scss */
+div.warning a:hover, div.warning a:active { text-decoration: none; }
+
+/* line 76, ../sass/drupal-reset.scss */
+div.error { background: url(../images/messages/knob_cancel.png) 9px 9px no-repeat #cd3728; }
+/* line 79, ../sass/drupal-reset.scss */
+div.error a:link, div.error a:visited { color: #FFB6BA; }
+/* line 82, ../sass/drupal-reset.scss */
+div.error a:hover, div.error a:active { text-decoration: none; }
+
+/*----- Nice Menus (GLOBAL) -----*/
+/* line 90, ../sass/drupal-reset.scss */
+ul.nice-menu, ul.nice-menu ul { list-style: none; padding: 0; margin: 0; border-top: none; }
+
+/* line 97, ../sass/drupal-reset.scss */
+ul.nice-menu li { border: none; border-top: 0; float: left; /* LTR */ background-color: transparent; }
+
+/* line 104, ../sass/drupal-reset.scss */
+ul.nice-menu a { padding: 0.3em 5px 0.3em 5px; }
+
+/* line 108, ../sass/drupal-reset.scss */
+ul.nice-menu ul { top: 1.8em; left: -1px; /* LTR */ border: 0; border-top: none; margin-right: 0; /* LTR */ }
+
+/* line 116, ../sass/drupal-reset.scss */
+ul.nice-menu ul li { width: 12.5em; }
+
+/*----- Nice Menus (DOWN) -----*/
+/* line 121, ../sass/drupal-reset.scss */
+ul.nice-menu-down { float: left; /* LTR */ border: 0; }
+/* line 124, ../sass/drupal-reset.scss */
+ul.nice-menu-down ul { left: 0; /* LTR */ }
+/* line 126, ../sass/drupal-reset.scss */
+ul.nice-menu-down ul li { clear: both; }
+/* line 130, ../sass/drupal-reset.scss */
+ul.nice-menu-down li { border-top: none; }
+/* line 132, ../sass/drupal-reset.scss */
+ul.nice-menu-down li.menuparent { background: none; /* LTR */ }
+/* line 134, ../sass/drupal-reset.scss */
+ul.nice-menu-down li.menuparent:hover { background: none; /* LTR */ }
+/* line 138, ../sass/drupal-reset.scss */
+ul.nice-menu-down li li { border-top: 0; }
+/* line 140, ../sass/drupal-reset.scss */
+ul.nice-menu-down li li.menuparent { background: none; /* LTR */ }
+/* line 142, ../sass/drupal-reset.scss */
+ul.nice-menu-down li li.menuparent:hover { background: none; /* LTR */ }
+/* line 147, ../sass/drupal-reset.scss */
+ul.nice-menu-down li ul li ul { left: 12.5em; /* LTR */ top: -1px; }
+/* line 152, ../sass/drupal-reset.scss */
+ul.nice-menu-down .menuparent a { padding-right: 15px; /* LTR */ }
+
+/*----- ADMIN MENU -----*/
+/* line 159, ../sass/drupal-reset.scss */
+#admin-menu ul { font-size: 12px; }

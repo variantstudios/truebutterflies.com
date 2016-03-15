@@ -1,0 +1,38 @@
+; This is the core info for the Skyvine theme
+
+; Theme info
+name = Skyvine
+description = The theme for Skyvine Butterflies.
+core = 7.x
+engine = phptemplate
+base theme = mothership
+
+; Theme Regions
+regions[content] = Content
+regions[help] = Help
+regions[highlighted] = Highlighted
+regions[slider] = Slider
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
+regions[footer_left] = Footer Left
+regions[footer_center] = Footer Center
+regions[footer_right] = Footer Right
+
+
+; Website Stylesheets
+stylesheets[all][] = assets/css/reset.css
+stylesheets[all][] = assets/css/drupal-reset.css
+stylesheets[all][] = assets/css/styles.css
+stylesheets[all][] = assets/css/formalize.css
+stylesheets[all][] = assets/css/ie8.css
+
+; Conditional Stylesheets for IE 6 and 7
+stylesheets-conditional[if IE 7][all][] = assets/css/ie7.css
+
+
+; Website JavaScript
+scripts[] = assets/js/scripts.js
+scripts[] = assets/js/jquery.formalize.js
+scripts[] = assets/js/jquery.formalize.min.js
+scripts[] = assets/js/selectivizr-min.js

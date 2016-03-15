@@ -1,0 +1,1 @@
+[14-Mar-2016 15:55:08 America/Denver] PHP Fatal error:  Call to undefined function libraries_load() in /home/buttrfly/public_html/sites/all/modules/contrib/colorbox/colorbox.module on line 226

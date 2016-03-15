@@ -1,0 +1,162 @@
+@import "_inc";
+
+/*----- Drupal Tabs -----*/
+.tabs {
+	ul.primary {
+	  border-bottom: medium none;
+	  margin: 0;
+	  padding: 5px 0;
+		li a {
+		  background-color: $tabs-bg;
+		  border: 1px solid $tabs-text;
+		  border-radius: 6px;
+		  color: $tabs-text;
+		  font-weight: normal;
+		  padding: 3px 7px;
+		  &:hover {
+			  color: $tabs-text-hover;
+			  border: 1px solid $tabs-text-hover;
+			}
+		  &.active {
+			  background-color: $tabs-bg;
+			  border: 1px solid $tabs-text-hover;
+			  color: $tabs-text-hover;
+			}
+		}
+	}
+}
+
+/*----- Drupal Messages -----*/
+div.messages {
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 15px 0;
+  min-height: 30px;
+  padding: 10px 10px 10px 57px;
+  ul li {
+	  list-style-type: none;
+	  margin: 0 0 10px 0;
+  }
+}
+div.status {
+  background: url(../images/messages/knob_valid.png) no-repeat 9px 9px #649616;
+  a {
+	  &:link, &:visited {
+	    color: #9DD78D;
+	  }
+	  &:hover, &:active {
+	    text-decoration: none;
+	  }
+	}
+}
+div.notice {
+  background: url(../images/messages/knob_message.png)9px 9px no-repeat #0095D1;
+  a {
+	  &:link, &:visited {
+	    color: #9DCFF3;
+	  }
+	  &:hover, &:active {
+	    text-decoration: none;
+	  }
+	}
+}
+div.warning {
+  background: url(../images/messages/knob_attention.png) no-repeat 9px 9px #A76C0E;
+  a {
+	  &:link, &:visited {
+	    color: #F0DB2E;
+	  }
+	  &:hover, &:active {
+	    text-decoration: none;
+	  }
+	}
+}
+div.error {
+  background: url(../images/messages/knob_cancel.png)9px 9px no-repeat #CD3728;
+  a {
+	  &:link, &:visited {
+	    color: #FFB6BA;
+	  }
+	  &:hover, &:active {
+	    text-decoration: none;
+	  }
+	}
+}
+
+/*----- Nice Menus (GLOBAL) -----*/
+ul.nice-menu,
+ul.nice-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: none;
+}
+
+ul.nice-menu li {
+  border: none;
+  border-top: 0;
+  float: left; /* LTR */
+  background-color: transparent;
+}
+
+ul.nice-menu a {
+  padding: 0.3em 5px 0.3em 5px;
+}
+
+ul.nice-menu ul {
+  top: 1.8em;
+  left: -1px; /* LTR */
+  border: 0;
+  border-top: none;
+  margin-right: 0; /* LTR */
+}
+
+ul.nice-menu ul li {
+  width: 12.5em;
+}
+
+/*----- Nice Menus (DOWN) -----*/
+ul.nice-menu-down {
+  float: left; /* LTR */
+  border: 0;
+  ul {
+    left: 0; /* LTR */
+    li {
+      clear: both;
+    }
+  }
+  li {
+    border-top: none;
+    &.menuparent {
+      background: none; /* LTR */
+      &:hover {
+        background: none; /* LTR */
+      }
+    }
+    li {
+      border-top: 0;
+      &.menuparent {
+        background: none; /* LTR */
+        &:hover {
+          background: none; /* LTR */
+        }
+      }
+    }
+    ul li ul {
+      left: 12.5em; /* LTR */
+      top: -1px;
+    }
+  }
+  .menuparent a {
+    padding-right: 15px; /* LTR */
+  }
+}
+
+/*----- ADMIN MENU -----*/
+#admin-menu {
+  ul {
+    font-size: 12px;
+  }
+}
